@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Select language</title>
+    <link rel="icon" type="image/x-icon" href="./img/logo_svg.png">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Libre+Caslon+Text:wght@400;700&family=Merriweather:wght@300;400;700&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@700&display=swap');
+
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+            text-decoration: none;
+        }
+        html{
+            font-size: 10px;
+        }
+      
+        header{
+            background: #fff;
+            width: 100vw;
+            height: 4.5rem;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        header p{
+            font-size: 2rem;
+            color: #86769f;
+            font-weight: 500;
+        }
+        header img{
+            width: 2.3rem;
+            margin-left: 1.2rem;
+        }
+
+        .choose{
+            width: 100vw;
+            height: 15rem;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+        }
+        .eng, .hindi{
+            width: 90vw;
+            height: 5rem;
+            margin: .5rem auto;
+            font-size: 1.8rem;
+            transition: all .3s ease-in-out;
+            font-weight: 500;
+            background: linear-gradient(#fff,#e8e8e8);
+            border: solid 1px #e5e5e5;
+            text-align: center;
+            padding-top: .8rem;
+        }
+        .eng:hover, .hindi:hover{
+            box-shadow: 2px 2px 5px #888888;
+            cursor: pointer;
+        }
+        a{
+            color: #000;
+        }
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <a href="./index.html"><img src="./img/back.png" alt=""></a>
+        <p>Select language</p>
+        <div>
+
+        </div>
+    </header>
+
+    <div class="choose">
+        <a href="./index.html" class="eng">English</a>
+        <a href="#" class="hindi">हिन्दी</a>
+    </div>
+</body>
+</html>

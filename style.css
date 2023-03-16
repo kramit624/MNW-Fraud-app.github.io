@@ -1,0 +1,481 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Libre+Caslon+Text:wght@400;700&family=Merriweather:wght@300;400;700&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+ul{
+    list-style: none;
+}
+html{
+    font-size: 10px;
+}
+
+.logo{
+    width: 100vw;
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img{
+    width: 10rem;
+}
+.hr{
+    margin-top: .4rem;
+}
+
+
+
+
+.carousel-inner,.carousel-item{
+    height: 25rem;
+    width: 95vw;
+    margin: 0 auto;
+}
+.carousel-item img{
+    height: 25rem;
+    width: 95vw;
+}
+
+
+
+
+
+
+.marq{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(233, 233, 233, 0.308);
+    width: 100vw;
+    height: 5rem;
+    border: none;
+}
+.marq img{
+    width: 2.5rem;
+    margin-left: 3rem;
+}
+.marq p{
+    font-size: 1.3rem;
+    padding-top: .5rem;
+}
+
+
+/* gid-card */
+.grid-card{
+    width: 100vw;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 12rem;
+    background-color: rgba(233, 233, 233, 0.308);
+}
+
+/* btc */
+.grid-card .btc{
+    width: 25%;
+    height: 80%;
+    background-color:#fff;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.grid-card .btc .name{
+    font-size: 2rem;
+    font-weight: 500;
+}
+.grid-card .btc .rate{
+    font-size: 1.8rem;
+    line-height: .4rem;
+    color: red;
+}
+.grid-card .btc .per{
+    font-size: 1.2rem;
+    color: red;
+}
+
+/* eth */
+
+.grid-card .eth{
+    width: 25%;
+    height: 80%;
+    background-color:#fff;
+    border-radius: 1rem;
+    display: flex;   
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.grid-card .eth .name{
+    font-size: 2rem;
+    font-weight: 500;
+}
+.grid-card .eth .rate{
+    font-size: 1.8rem;
+    line-height: .4rem;
+    color: red;
+}
+.grid-card .eth .per{
+    font-size: 1.2rem;
+    color: red;
+}
+
+
+/* sol */
+.grid-card .sol{
+    width: 25%;
+    height: 80%;
+    background-color: #fff;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.grid-card .sol .name{
+    font-size: 2rem;
+    font-weight: 500;
+}
+.grid-card .sol .rate{
+    font-size: 1.8rem;
+    line-height: .4rem;
+    color: red;
+}
+.grid-card .sol .per{
+    font-size: 1.2rem;
+    color: red;
+}
+
+
+/* mid */
+
+.mid{
+    width: 100vw;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 8rem;
+    background-color: rgba(233, 233, 233, 0.308);
+}
+.mid .service{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.mid .service img{
+    width: 3rem;
+    cursor: pointer;
+}
+.mid .service a{
+    text-decoration: none;
+    color: #000;
+    font-size: 1.5rem;
+}
+
+.mid .lang{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.mid .lang img{
+    width: 3rem;
+    cursor: pointer;
+}
+.mid .lang a{
+    text-decoration: none;
+    color: #000;
+    font-size: 1.5rem;
+}
+
+
+/* rechage */
+
+.recharge{
+    width: 100vw;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 8rem;
+    background-color: rgba(233, 233, 233, 0.308);
+}
+
+.recharge .logo-recharge{
+    width: 25%;
+    height: 100%;
+    padding: 0 .8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.recharge .logo-recharge img{
+    width: 10rem;
+    cursor: pointer;
+}
+
+.recharge .logo-recharge a{
+    text-decoration: none;
+    color: #000;
+    font-size: 1.5rem;
+}
+
+.recharge .board{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.recharge .board img{
+    width: 2.5rem;
+    cursor: pointer;
+}
+
+
+/* Share */
+
+.share{
+    width: 100vw;
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    height: 8rem;
+    background-color: rgba(233, 233, 233, 0.308);
+    padding: 0 10rem;
+}
+
+.share img{
+    width: 3.8rem;
+    cursor: pointer;
+}
+
+.share a{
+    padding-left: 1.5rem;
+    text-decoration: none;
+    color: #000;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+#listGun{
+    margin-top: 0px;
+    animation: scroll 30s infinite;
+}
+
+@keyframes scroll {
+    0%{
+        margin-top: 0px;
+    }
+    90%{
+        margin-top: -200rem;
+    }
+    100%{
+        margin-top: 0;
+    }
+}
+
+
+.bottom-logo{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    height: 6rem;
+    background: rgba(233, 233, 233, 0.308);
+}
+.bottom-logo div{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.bottom-logo img{
+    width: 2.8rem;
+}
+.bottom-logo p a{
+    text-decoration: none;
+    color: #000;
+    font-size: 1.5rem;
+}
+
+
+
+
+
+
+
+/* -----------Responsive-------------- */
+
+@media screen and (max-width:768px) {
+    html{
+        font-size: 8px;
+    }
+}
+@media screen and (max-width:550px) {
+    html{
+        font-size: 8px;
+    }
+
+     .recharge .logo-recharge{
+        width: 70%;
+        padding: 0 1.5rem;
+    }
+    
+    .recharge .logo-recharge img{
+        width: 9rem;
+    }
+    
+    .recharge .logo-recharge a{
+        text-decoration: none;
+        color: #000;
+        font-size: 2.1rem;
+        font-weight: 500;
+    }
+    
+    .recharge .board{
+        width: 25%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .recharge .board img{
+        width: 4rem;
+        cursor: pointer;
+    }
+
+
+    .grid-card .btc .name{
+        font-size: 2.3rem;
+        font-weight: 500;
+    }
+    .grid-card .btc .rate{
+        font-size: 2rem;
+        line-height: .4rem;
+        color: red;
+    }
+    .grid-card .btc .per{
+        font-size: 1.7rem;
+        color: red;
+    }
+
+
+    .grid-card .eth .name{
+        font-size: 2.3rem;
+        font-weight: 500;
+    }
+    .grid-card .eth .rate{
+        font-size: 2rem;
+        line-height: .4rem;
+        color: red;
+    }
+    .grid-card .eth .per{
+        font-size: 1.7rem;
+        color: red;
+    }
+
+
+    .grid-card .sol .name{
+        font-size: 2.3rem;
+        font-weight: 500;
+    }
+    .grid-card .sol .rate{
+        font-size: 2rem;
+        line-height: .4rem;
+        color: red;
+    }
+    .grid-card .sol .per{
+        font-size: 1.7rem;
+        color: red;
+    }
+
+    .carousel-inner,.carousel-item{
+        height: 25rem;
+        width: 100vw;
+        margin: 0 auto;
+    }
+    .carousel-item img{
+        height: 25rem;
+        width: 100vw;
+    }
+
+    .logo img{
+        width: 13rem;
+    }
+
+
+    .marq img{
+        width: 3.2rem;
+        margin-left: 3.5rem;
+    }
+    .marq p{
+        font-size: 1.8rem;
+        padding-top: .5rem;
+    }
+
+    .mid .sevice{
+        width: 55%;
+    }
+    .mid .service img{
+        width: 4rem;
+    }
+    .mid .service a{
+        text-decoration: none;
+        color: #000;
+        font-size: 1.5rem;
+        font-weight: 600;
+    }
+
+
+    .mid .lang img{
+        width: 4rem;
+        padding-top: .8rem;
+    }
+    .mid .lang a{
+        text-decoration: none;
+        color: #000;
+        font-size: 1.7rem;
+        font-weight: 500;
+    }
+
+    .share img{
+        width: 4rem;
+        margin-left: -6rem;
+    }
+    
+    .share a{
+        padding-left: 1.5rem;
+        text-decoration: none;
+        color: #000;
+        font-size: 2rem;
+        font-weight: 500;
+    }
+
+    .bottom-logo{
+        height: 7.6rem;
+    }
+
+    .bottom-logo img{
+        width: 3.4rem;
+    }
+    .bottom-logo p{
+    font-size: 1.6rem;
+    }
+}
