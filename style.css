@@ -470,6 +470,8 @@ html{
 
     .bottom-logo{
         height: 7.6rem;
+        Position: relative;
+        Bottom:0;
     }
 
     .bottom-logo img{
